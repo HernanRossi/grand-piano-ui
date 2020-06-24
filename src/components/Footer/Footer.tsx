@@ -1,13 +1,13 @@
-import React, {FunctionComponent} from "react"
+import React, { FunctionComponent } from "react"
 import "./styles.css"
-import {LogoDiv} from "../../styles/styled-components"
+import { LogoDiv } from "../../styles/styled-components"
 
-export const Footer:FunctionComponent = () => {
+export const Footer: FunctionComponent = () => {
   const currentYear = new Date().getFullYear()
 
-  return(
+  return (
     <footer className="footer">
-      <LogoDiv/>
+      <LogoDiv />
       Hernan Rossi {currentYear}
     </footer>
   )
